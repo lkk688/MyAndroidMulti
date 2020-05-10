@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/drawOneFragment"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:title="@string/drawone_menu" />
+    <item
+        android:id="@+id/weatherFragment"
+        android:title="Weather" />
+    <item
+        android:id="@+id/cameraFragment"
+        android:title="Camera" />
+    <item
+        android:id="@+id/aboutFragment"
+        android:icon="@android:drawable/presence_away"
+        android:title="@string/about_title" />
+</menu>
